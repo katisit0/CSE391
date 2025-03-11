@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabbo's Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabbo's portfolio</h1>
+    <!-- Navigation menu using an unordered list -->
+    <nav>
+      <ul>
+        <!-- Internal links to the sections on the same page -->
+        <li><a href="#about">About me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="indexAss2.html" target="_blank">ASSIGNMENT-2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- About Section-->
+    <section id="about">
+      <h2 style="color: red; font-style: italic;">About me</h2>
+      <img src="Kabbo1.jpg" alt="Kabbo's Photo" width="200" style="display: block; margin: 0 auto; border-radius: 50%;">
+      <p style="text-align: center;">
+        Hi! My name is <strong>Kawser Latif Kabbo</strong>.<br>
+        Currently, an undergrad CS student at <a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a>.<br>
+        I also love illustrating.<br>
+        This is my portfolio highlighting some of my work.<br>
+        <br>
+        Always remember,<br>
+        <span style="font-style: italic;">"With great power, comes great responsibility!"</span><br>
+        - Uncle Ben.
+      </p>
+    </section>
+
+    <!-- Education Section: -->
+      <section id="education" style="position: relative; text-align: left;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.3; background-image: url('bracu.jpeg'); background-size: cover; background-position: center;"></div>
+        <div style="position: relative; padding: 20px;">
+          <h2 style="color: red; font-style: italic;">Education</h2>
+          <p>I completed my O levels and A levels from <a href="https://academiaschool.edu.bd/" target="_blank"><strong>Academia School</strong></a>.<br>
+          I studied about Physics, Chemistry and a bit of Accounting!</p>
+          <div style="margin-top: 20px; text-align: right;">
+            Currently studying B.Sc. in Computer Science (CS) at <a href="https://www.bracu.ac.bd/" target="_blank"><strong>BRAC University</strong></a>.<br>
+            With good luck and hard work, I hope to start pursuing my Masters in a reputed university abroad!
+          </div>
+        </div>
+      </section>
+
+    <!-- Hobbies Section-->
+    <section id="hobbies">
+      <h2 style="color: red; font-style: italic;">Hobbies</h2>
+      <p>I love watching anime, movies, reading and collecting manga and drawing.</p>
+      <p>To start, here's a list of my top 10 anime:</p>
+      <table style="margin-bottom: 20px;">
+
+        <tr>
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Naruto</td>
+          <td>Action</td>
+          <td>A story of a young ninja with big dreams.</td>
+        </tr>
+        <tr>
+          <td>One Piece</td>
+          <td>Adventure</td>
+          <td>A tale of pirates searching for treasure.</td>
+        </tr>
+        <tr>
+          <td>Attack on Titan</td>
+          <td>Drama</td>
+          <td>A dark narrative about humanity fighting for survival.</td>
+        </tr>
+        <tr>
+          <td>My Hero Academia</td>
+          <td>Superhero</td>
+          <td>Following students training to become heroes.</td>
+        </tr>
+        <tr>
+          <td>Demon Slayer</td>
+          <td>Fantasy</td>
+          <td>A journey of a boy fighting demons.</td>
+        </tr>
+        <tr>
+          <td>Death Note</td>
+          <td>Thriller</td>
+          <td>A high-stakes battle of wits.</td>
+        </tr>
+        <tr>
+          <td>Fullmetal Alchemist</td>
+          <td>Adventure</td>
+          <td>Brothers on a quest to restore what they lost.</td>
+        </tr>
+        <tr>
+          <td>Dragon Ball Z</td>
+          <td>Martial Arts</td>
+          <td>Epic battles and powerful foes.</td>
+        </tr>
+        <tr>
+          <td>Sword Art Online</td>
+          <td>Sci-Fi</td>
+          <td>A virtual world where the stakes are high.</td>
+        </tr>
+        <tr>
+          <td>Hunter x Hunter</td>
+          <td>Adventure</td>
+          <td>An exciting journey full of challenges.</td>
+        </tr>
+      </table>
+    
+      <h3 style="text-align: center; margin-top: 50px;">Some of my personal works</h3>
+      <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+        <img src="drawing1.PNG" alt="Drawing 1" style="max-width: 30%; height: auto; margin: 10px;">
+        <img src="drawing5.PNG" alt="Drawing 5" style="max-width: 30%; height: auto; margin: 10px;">
+        <img src="drawing6.PNG" alt="Drawing 6" style="max-width: 30%; height: auto; margin: 10px;">
+      </div>
+      <p style="text-align: center; margin-top: 20px;">
+        If you like my drawings consider following me on 
+        <a href="https://www.instagram.com/katisit0/" target="_blank"><strong>Instagram</strong></a> and 
+        <a href="https://x.com/katisit0" target="_blank"><strong>Twitter</strong></a> to see my other works!
+      </p>
+    </section>
+
+    <!-- Contact Me Section-->
+    <section id="contact">
+      <h2 style="color: red; font-style: italic;">Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      <p style="text-align: left; margin-top: 20px;">
+        CSE391 <a href="https://discord.gg/8sRnpBbv" target="_blank"><strong>Discord Server</strong></a>
+      </p>
+    </section>
+  </main>
+
+
+  <footer>
+
+    <p id="footer-info"></p>
+    <button id="mode-toggle">Toggle Dark/Light Mode</button>
+    <p>&copy; 2025 Kawser Latif Kabbo. All rights reserved.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
